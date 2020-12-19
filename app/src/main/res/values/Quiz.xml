@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="quiz">
+        <item>The highest point of North America is:!Mt. Aconcagua!Mt. Ellsworth!Mt. McKinley!Mt. Kosciuszko!</item>
+        <item>The largest excretory organ of the human body is!lungs!skin!liver!none of these!</item>
+        <item>Which country is the worst-hit country by the Covid-19?!China!Italy!United Kingdom!United States!</item>
+        <item>Haemodialysis means cleaning of!urine!blood!glomerular filterate!coelomic fluid!</item>
+        <item>The first period of elements in the periodic table consists of only!hydrogen!hydrogen and oxygen!hydrogen and helium!hydrogen and nitrogen!</item>
+        <item>The major and the most popular language of World Wide Web (WWW) is!HTML!Java!PHP!ASP.NET!</item>
+        <item>Plaster of Paris is produced by heating!Graphite!Gypsum!Zinc!Lead!</item>
+        <item>Pedagogy is an ‘approach to teaching’ that refers to the theory and practice of!reading!studying!knowing!learning!</item>
+        <item>He was watching a documentary, when she ______ in.!walk!walks!walked!was walking!</item>
+        <item>Different attributes in two different tables having same name are referred to as!Acronym!Synonym!Homonym!Mutually exclusive!</item>
+        <item>The main function of a web server is to store and process!internet!websites!database!programs!</item>
+        <item>In the internet world, the communication between client and web server takes place using the!scripts!URL!HTML!HTTP!</item>
+        <item>Algorithms that improve automatically through experience is known as!computer program!machine learning!computer language!artificial intelligence!</item>
+        <item>The basic medium of optical fiber is a fiber that is mostly made of!glass!wood!copper!lead!</item>
+        <item>Web pages are interlinked by using!HTTP!marquee!hyperlinks!slider!</item>
+    </string-array>
+</resources>

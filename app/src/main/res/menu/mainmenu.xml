@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="App">
-        <menu>
+
+
             <item android:title="Start Quiz"
                 android:icon="@drawable/ic_baseline_question_answer"
+                android:id="@+id/quiz"
                 />
             <item android:title="Start Calculation"
                 android:icon="@drawable/ic_baseline_book"
+                android:id="@+id/calculator_start"
                 />
-        </menu>
-    </item>
+
+
     <item android:title="Share">
         <menu>
 
