@@ -48,26 +48,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
 
 
-
-
-//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//                switch (item.getItemId()){
-//                    case R.id.quiz:
-//                        startActivity(new Intent(MainActivity.this,QuizActivity.class));
-//                        break;
-//                    case R.id.calculator:
-//                        startActivity(new Intent(MainActivity.this,CalculatorActivity.class));
-//                        break;
-//                    default:
-//                        break;
-//
-//                }
-//                return  true;
-//            }
-//        });
-
     }
 
     @Override
@@ -75,10 +55,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id=item.getItemId();
         switch (id){
             case R.id.quiz:
-                startActivity(new Intent(MainActivity.this,QuizActivity.class));
+                Intent intent=new Intent(MainActivity.this,QuizActivity.class);
+                startActivity(intent);
                 break;
             case R.id.calculator_start:
-                startActivity(new Intent(MainActivity.this,CalculatorActivities.class));
+                Intent intent1=new Intent(MainActivity.this,CalculatorActivities.class);
+                startActivity(intent1);
                 break;
             }
             drawer.closeDrawer(GravityCompat.START);
